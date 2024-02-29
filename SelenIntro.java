@@ -20,6 +20,7 @@ public class SelenIntro {
 		driver.get("https://rahulshettyacademy.com/");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
+		System.out.println("The title has been displayed");
 		driver.close();
 		driver.quit();
 		
